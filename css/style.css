@@ -1,0 +1,391 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Cabin', sans-serif
+}
+body {
+    font-family: 'Cabin', sans-serif;
+    overflow-x: hidden;
+}
+.navbar-brand img  {
+    overflow: hidden;
+    margin-top: -52px;
+    width: 74px;
+height: 34px;
+}
+/* navbar right icon */
+.navRight {
+    margin-left: 69%;
+    margin-top: 20px !important;
+}
+.navRight span {
+width: 72.47px;
+height: 19px;
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 14.4px;
+line-height: 19px;
+color: #00497E;
+}
+.navRight img  {
+width: 25px;
+height: 25px;
+margin-right: 10px;
+
+}
+.NavIcon img{
+    width: 85px;
+height: 62px;
+}
+
+@media all and (max-width:675px){
+    .navRight {
+        margin-left: 64%;
+        margin-top: 20px !important;
+      }
+  
+
+}
+
+@media all and (max-width:615px){
+    .navRight {
+        margin-left: 62%;
+        margin-top: 20px !important;
+    }
+}
+
+@media all and (max-width:582px){
+    .navRight {
+        margin-left: 55%;
+        margin-top: 20px !important;
+    }
+}
+@media all and (max-width:492px){
+    .navRight {
+        margin-left: 55%;
+        margin-top: 20px !important;
+    }
+    
+
+}
+@media all and (max-width:467px){
+    .navRight {
+        margin-left: 48%;
+        margin-top: 20px !important;
+    }
+}
+
+/* hero area */
+
+.HeroImg img {
+    width: 100%;
+    height: auto;
+    margin-top: -20px !important;
+}
+.container-fluid {
+margin: 0px;
+padding:0px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -42px;
+    margin-left: -15px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: -11px;
+    margin-right: 30px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+
+
+  /* section2 */
+  
+.section2 h1 {
+    width: 401px;
+    height: 32px;
+    left: 12px;
+    top: 366px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 29px;
+    color: #00497E;
+}
+
+.star span {
+    font-weight: 700;
+    font-size: 21px;
+    color: rgb(99, 99, 99);
+    margin-left: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.Se2 {
+    color: #034A97;
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 17px;
+letter-spacing: 1.17647px;
+text-transform: uppercase;
+
+}
+
+
+.location {
+    color: #FC4D04;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Box1 {
+    box-sizing: border-box;
+    border: 1px solid #034A97;
+    border-radius: 10px;
+    height: 230px !important;
+    margin-left: 10px;
+}
+
+.Box1 span {
+    font-size: 20px;
+    color: #034A97;
+    font-weight: 700;
+    margin-top: 5px !important;
+}
+
+.Box1 p {
+    font-size: 18px;
+    color: rgb(99, 99, 99);
+    font-weight: 500;
+    margin-top: 2px;
+
+}
+
+
+.FooterArea  {
+    background-color: #162242;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.FooterImg {
+    margin-top: 70px !important;
+}
+.FooterImg > img {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin:auto;
+
+}
+.ContactArea {
+    display: flex;
+    width: 60%;
+    margin: auto;
+
+}
+
+#Social .button1 {
+text-transform: uppercase;
+padding:10px;
+background: #E5EDF0;
+}
+#Social .button2 {
+    text-transform: uppercase;
+    padding-left:17px;
+    padding-right:17px;
+    color: #fff;
+    background: #FC5413;
+    }
+#Social span {
+    margin-left: 5px;
+}
+#Social button {
+    display: block;
+    margin-top: 10px;
+}
+.button2 img {
+    width: 28.03px;
+    height: 26px;
+}
+.socialIcons img {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.Phone span {
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size:17.4px;
+line-height: 19px;
+color: #fff;
+margin-left: 7px;
+}
+
+.mail span {
+    margin-left: 7px;
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size:17.4px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.mail {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mail img {
+    width: 22px;
+height: 22px;
+
+}
+
+.Footerlocation {
+    margin-top: 10px;
+
+}
+.Footerlocation span{
+    margin-left: 7px;
+    font-family: 'Cabin';
+    font-style: normal;
+font-size:17.4px;
+font-weight: 600;
+    line-height: 19px;
+    color: #FFFFFF;
+    
+}
+#Social {
+    width: 30%;
+    padding: 10px;
+}
+#Contacts {
+    width: 70%;
+    border-left: 1px solid #fff !important;
+    margin-left: 35px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+.FooterHR {
+
+    width: 60%;
+    margin: auto;
+ 
+}
+
+.LastImg {
+    width: 60px;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.WidthDe {
+    width: 60%;
+    margin: auto;
+}
+@media all and (max-width:630px){
+    .ContactArea {
+        display: flex;
+        width: 70%;
+        margin: auto;
+      } 
+      .FooterImg > img {
+        display: block;
+        width: 65%;
+        height: auto;
+        margin: auto;
+      }
+
+}
+
+@media all and (max-width:540px){
+    .ContactArea {
+        display: flex;
+        width: 85%;
+        margin: auto;
+      } 
+      .FooterImg > img {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin: auto;
+      }
+
+}
+
+@media all and (max-width:445px){
+    .ContactArea {
+        display: flex;
+        width: 95%;
+        margin: auto;
+      } 
+      .FooterImg > img {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: auto;
+      }
+
+}
+
+@media all and (max-width:445px){
+    .ContactArea {
+        display: block;
+        width: 95%;
+        margin: auto;
+      } 
+      #Contacts {
+        margin-left: 10px;
+        border: none !important;
+    }
+    .FooterHR {
+
+        width: 90%;
+        margin: auto;
+     
+    }
+
+    .LastImg {
+        width: 60px;
+        height: 20px;
+        margin-top: 20px;
+        background-color: #fff;
+    }
+    
+    .WidthDe {
+        width: 90%;
+        margin: auto;
+    }
+
+}
