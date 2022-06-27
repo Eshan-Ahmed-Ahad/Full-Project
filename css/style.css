@@ -776,7 +776,7 @@ color: #5B5B5B;
 .Item2 {
     background: #FC5413;
 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.107791);
-border-radius: 10px;
+border-radius: 0px;
 color: #fff;
 border: none;
 }
@@ -788,7 +788,7 @@ border: none;
 .item3 {
     background: #00497E;
 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.107791);
-border-radius: 10px;
+border-radius: 0px;
 border:none;
 color: #fff;
 }
