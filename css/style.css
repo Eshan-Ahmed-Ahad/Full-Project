@@ -165,22 +165,43 @@ text-transform: uppercase;
     box-sizing: border-box;
     border: 1px solid #034A97;
     border-radius: 10px;
-    height: 230px !important;
-    margin-left: 10px;
+    margin-left:5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
-.Box1 span {
-    font-size: 20px;
-    color: #034A97;
-    font-weight: 700;
-    margin-top: 5px !important;
+.phone span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 1.17647px;
+    text-transform: uppercase;
+    
+    color: #FC5413;
+    margin-left: 5px !important;
 }
-
+.Email span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 1.17647px;
+    text-transform: uppercase;
+    
+    color: #FC5413;
+    margin-left: 5px !important;
+}
 .Box1 p {
-    font-size: 18px;
-    color: rgb(99, 99, 99);
+    font-family: 'Cabin';
+    font-style: normal;
     font-weight: 500;
-    margin-top: 2px;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 5px;
+    
+    color: #5B5B5B;
 
 }
 
@@ -388,4 +409,748 @@ font-weight: 600;
         margin: auto;
     }
 
+}
+
+
+.flex-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+}
+
+.flex-icons {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.SectionTSpan {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.4px;
+    line-height: 19px;
+    color: #00497E;
+}
+
+
+/* Accordion Area Start From Here  */
+
+
+.accordion {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px 0rem 4rem auto;
+  }
+  .accordion-item {
+    background: #FFFFFF;
+    border: 1.04958px solid #00497E;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.107791);
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  .accordion-item-header {
+    padding: 2rem 3rem 2rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer; 
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.4px;
+    line-height: 19px;
+    color: #00497E;
+  }
+.accordion-item-header img {
+    margin-right: 10px;
+}
+  .accordion-item-header::after {
+    content: url('../img/star/rightIcon.svg');
+    font-size: 3rem;
+    position: absolute;
+    right: 2rem;
+  }
+  .accordion-item-header.active::after {
+    content: "\2212";
+  }
+  .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  }
+
+/* accordion area end from here */
+
+
+/* section 5 area start from here  */
+.object-cover {
+    object-fit: cover !important;
+}
+.section5 {
+    margin-top: 35px;
+    text-align: center;
+
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.my-3 {
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #162242;
+}
+
+
+/* section 5 area end from here  */
+
+
+/* section 6 area start from here  */
+
+.section6 {
+    background-color:  #F4F7FA;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.strong_section {
+    margin: 0 auto;
+}
+
+
+.strong_img {
+    width: 20.94px;
+    height: 18.18px;
+}
+
+.strong_part {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #00497E;
+    /* width: 404px; */
+    height: 85px;
+    /* padding: 30px; */
+    background: #FFFFFF;
+    border: 1px solid #00497E;
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.107791);
+    border-radius: 10.076px;
+    margin-top: 30px;
+    line-height: 1;
+}
+.strong_part_3 {
+    /* width: 404px; */
+    position: relative;
+}
+.strong_part {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #00497E;
+    /* width: 404px; */
+    height: 85px;
+    /* padding: 30px; */
+    background: #FFFFFF;
+    border: 1px solid #00497E;
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.107791);
+    border-radius: 10.076px;
+    margin-top: 30px;
+    line-height: 1;
+}
+.st_text_area {
+    margin: 30px 15px 19px;
+}
+
+.st_text {
+    font-weight: 600;
+    font-size: 15.11px;
+    line-height: 1px;
+    margin-top: -5px;
+    color: #00497E;
+
+}
+
+.st_text2 {
+    color: #00497E;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.st_text3 {
+    color: #FC5413;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 3px;
+    margin-top: 5px !important; 
+}
+
+.strong_part_2 {
+    /* width: 404px; */
+    position: relative;
+}
+
+
+
+.st_position {
+    border: 1px solid #FC5413;
+    width: 175.85px;
+    height: 30px;
+    font-size: 15.3355px;
+    position: absolute;
+    top: -15px;
+    left: 30%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding:5px !important;
+}
+
+.size {
+    width: 38px;
+    height: 38px;
+}
+
+.strong_part_3 {
+    /* width: 404px; */
+    position: relative;
+}
+
+.st_position2 {
+    border: 1px solid #FC5413;
+    width: 175.85px;
+    height: 30px;
+    font-size: 15.3355px;
+    position: absolute;
+    top: -15px;
+    left: 30%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding:5px !important;
+}
+
+
+
+.st_button_area {
+    margin: 24px 46px;
+}
+
+.button {
+    background: #FC5413;
+    border: 0;
+    color: white;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    letter-spacing: 1.86667px;
+    text-transform: uppercase;
+}
+
+.strong_section h2  {
+    font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 42px;
+text-align: center;
+margin-bottom: 30px;
+color: #00497E;
+}
+.my-5 {
+font-style: normal;
+font-weight: 600;
+font-size: 14.4px;
+line-height: 19px;
+color: #00497E;
+}
+
+.st_button {
+    padding: 7px 7px;
+    width: 200px;
+    height: 37.8px;
+}
+
+
+
+/* Contact Area */
+.contact_area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main_contact {
+    /* margin: 30px; */
+    text-align: center;
+    font-size: 19.2px;
+    line-height: 23px;
+}
+
+.contact_text {
+    display: block;
+    color: #162242;
+    font-weight: 600;
+    font-size: 15.114px;
+}
+
+.contact_icon {
+    margin-left: 20px;
+}
+
+.contact_area_part {
+    margin: auto;
+}
+.ContentH3 {
+    font-style: normal;
+font-weight: 700;
+font-size: 19.2px;
+line-height: 23px;
+margin-bottom: 20px;
+margin-top: 50px;
+
+text-align: center;
+color: #00497E;
+}
+
+/* Rent */
+.RentH2 {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    color: #00497E; 
+    }
+.RentH3 {
+    font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 29px;
+/* or 103% */
+
+text-align: center;
+
+color: #00497E;
+
+}
+
+.fst-italic {
+font-style: italic;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+text-align: center;
+color: #5B5B5B;
+}
+
+.Item2 {
+    background: #FC5413;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.107791);
+border-radius: 10px;
+color: #fff;
+border: none;
+}
+
+.Accheader {
+    color: #fff;
+}
+
+.item3 {
+    background: #00497E;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.107791);
+border-radius: 10px;
+border:none;
+color: #fff;
+}
+
+.AccoHeader {
+    color: #fff;
+}
+
+
+.Accheader::after {
+    content: url('../img/star/chevron-down.svg');
+    font-size: 3rem;
+    position: absolute;
+    right: 2rem;
+  }
+
+.AccoHeader::after {
+    content: url('../img/star/chevron-down.svg');
+    font-size: 3rem;
+    position: absolute;
+    right: 2rem;
+}
+
+
+ /* Section8  Area start From here  */
+
+/* self */
+.SelfH3 {
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 29px;
+color: #00497E;
+
+
+}
+.MDe {
+    margin-right: 10px;
+}
+.MDE2 {
+    margin-left: 10px;
+}
+.Price1 {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.PriceH5 {
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+color: #00497E;
+}
+.self_head {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.self_text {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1.17647px;
+    text-transform: uppercase;
+    color: #00497E;
+    transform: rotate(0.08deg);
+}
+
+.self_area {
+    background: #F4F7FA;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.self_main {
+    border-radius: 10.076px;
+    border: 1px solid #00497E;
+    padding: 15px;
+}
+
+.main_part {
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.self_position1 {
+    border: 1px solid #FC5413;
+    width: 157.85px;
+    height: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.17647px;
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 11.3355px;
+    position: absolute;
+    top: -10px;
+    left: 15%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    color: #FC5413;
+}
+
+.self_position2 {
+    color: #FC5413;
+    border: 1px solid;
+    width: 157.85px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.17647px;
+    height: 25px;
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 11.3355px;
+    position: absolute;
+    top: -10px;
+    left: 55%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.button_reserve {
+    border: 0;
+    background: #DEE5E8;
+    color: #64708A;
+    font-style: 11px;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1.86667px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Fit {
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 600;
+font-size: 14.4px;
+line-height: 19px;
+color: #00497E;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.FitButton {
+    margin-right: 20px;
+    background: #FC5413;
+    border: 0;
+    color: white;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1.86667px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.RentH2 {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    color: #5B5B5B !important;
+    }
+    .rent_banner {
+        text-align: center;
+    }
+    
+    .rent_text {
+    color: #5B5B5B !important;
+
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 15px;
+        text-align: center;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: 20px;
+    
+    }
+    
+/* <!-- Section8  Area end From here --> */
+
+
+/* section 9 */
+.Accordion3 {
+    color: #fff;
+}
+.item3 {
+    border: 1.04958px solid #00497E;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.107791);
+    border-radius: 0px !important;
+    margin-top: 0px !important;
+}
+.Accordion3::after {
+    content: url('../img/star/WhiteRightIcon.svg');
+    font-size: 3rem;
+    position: absolute;
+    right: 2rem;
+  }
+
+
+/* <!-- Section10  Area start From here --> */
+
+.storing-main-div {
+    background-color: #F4F7FA;
+    /* height: 421px; */
+    margin: 0%;
+    padding-left: 12px;
+    padding-top: 46px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.storing-title {
+    margin: 0%;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    color: #00497E;
+}
+
+.All-mini-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
+}
+
+.mini-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.mini-card-img {
+    width: 36px;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+.mini-card-title {
+    font-family: 'Cabin';
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    font-size: 19.2px;
+    line-height: 23px;
+    color: #162242;
+    margin-top: 0%;
+}
+
+.Bluebird-div {
+    margin-top: 50px;
+}
+
+.subead-title {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 29px;
+    text-align: center;
+    color: #00497E;
+    margin-bottom: 0%;
+}
+
+.hr-class {
+    color: #000000;
+    width: 342px;
+    margin-top: 33px;
+}
+
+.subead-info {
+    width: 341px;
+    text-align: center;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #00497E;
+    margin-left: auto;
+    margin-top: 23px;
+    margin-right: auto;
+}
+.StoringH2 {
+    text-align: center;
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 42px;
+
+text-align: center;
+color: #00497E;
+}
+
+.BlueBirdH2 {
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 42px;
+/* or 108% */
+
+text-align: center;
+
+color: #00497E;
+}
+
+.BlueBirdH3 {
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 29px;
+/* or 103% */
+
+text-align: center;
+
+color: #00497E;
 }
